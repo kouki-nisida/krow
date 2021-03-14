@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 
+全体
+*/
+section{
+    padding: 100px 0;
+}
+.title{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.text{
+    text-align: center;
+    line-height: 2.0;
+}
+
+
+
+
+header{
+    background-image: url(../images/bg-main_visual.jpg);
+    background-size: cover;
+    /* height: 50vh; */
+    padding-top:40% ;
+    position: relative;
+    
+}
+header h1{
+    position: absolute;
+    bottom:60px ;
+    left: 60px;
+
+}
+/* 
+creative
+*/
+
+.creative{
+    background-color: #fffff3;
+}
+/* 
+work
+*/
+
+.work{
+    background-image: url(../images/bg-content.jpg);
+    background-size: cover;
+}
+.work .title{
+    color: white;
+}
+.work-wrap{
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    box-sizing:border-box;
+}
+
+
+.work-contents{
+    display: flex;
+
+}
+.work-contents:nth-child(even){
+    flex-direction: row-reverse;
+}
+.work-text{
+    background-color: #fffff3;
+    padding: 50px 20px;
+}
+
+/* 
+intro
+ */
+
+.intro{
+    background-color: #fffff3;
+
+
+}
+.intro .text{
+    padding-bottom: 60px;
+
+}
+.intro-wrap{
+    text-align: center;
+
+}
+.intro-wrap :nth-of-type(n+2){
+    margin-left:60px;
+}
